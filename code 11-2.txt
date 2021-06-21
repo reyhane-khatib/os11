@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{amsmath}
+
+\title{OSLab Homework 11-2}
+\author{reyhane khatib semnani }
+\date{June 2021}
+
+\begin{document}
+\maketitle
+%......................................................bio
+\section{Biography :}
+reyhane khatib semnani...Date of birth January 2000...Computer engineering student from Sadjad University 
+Familiarity with programming languages such as cpp, c, python.
+%.....................................................image
+\section{Image section :}
+\begin{center}
+beach :)\\
+\includegraphics[scale=0.09]{sea.jpg}
+\end{center}
+%......................................................TABLE
+\section{Table section :}
+\begin{table}[h]
+    \begin{center}
+       Top programming languages : \\
+       
+        \begin{tabular}{||c|c|c|c||}
+            \hline
+            1 & 2 & 3 & 4\\
+            \hline
+            python & javaScript & Go & TypeScript\\
+             \hline
+            5 & 6 &7 & 8\\
+            \hline
+            kotlin & Rust & c++ & java\\
+            \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+%................................................Formula
+\section{Formula :}
+\begin{center}
+{\large
+    $v^2 = v_0^2 + 2a\Delta X$
+    $$\cos (2\theta) = \cos^2 \theta - \sin^2 \theta$$
+    $$\forall x \in X, \quad \exists$$
+    $$\lim\limits_{x \to \infty} \exp(-x) = 0$$
+}
+\end{center}
+%...................................................code
+\section{Code Section :}
+This code puts an asterisk in the sentence instead of a space:\\
+\begin{lstlisting}[language=C++]
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	char str[50];
+	int i = 0;
+	cout << "jomle:";
+	cin .getline(str,50);
+	for (i = 0; i < 50; i++)
+	{
+		if (str[i] == '')
+		{
+			str[i] = '*';
+
+		}
+	}
+	cout << endl << "javab:" << str << endl;
+	system("pause");
+	return 0;
+} 
+\end{lstlisting}
+\end{document}
